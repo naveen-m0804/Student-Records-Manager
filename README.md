@@ -1,5 +1,3 @@
-﻿# Student-Records-Manager
-
 # Student Management System
 
 A simple web application to manage student records using Flask (Python) backend and MySQL database, with a modern and responsive frontend.
