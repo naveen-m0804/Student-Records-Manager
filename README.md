@@ -57,12 +57,14 @@ pip install flask flask-mysqldb flask-cors
 
 
 Update MySQL credentials in app.py:
-
+```sql
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'your_mysql_password'
 app.config['MYSQL_DB'] = 'campus_drive'
-
+```
 Run the Flask app:
+```python
 python app.py
+```
 The server will start on http://localhost:5000
